@@ -1,3 +1,6 @@
 {
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "trashOption": "local",
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "assets"
 }

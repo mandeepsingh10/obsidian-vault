@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux Network Namespaces.md",
+                "file": "Docker/Docker Networking.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux Network Namespaces.md",
+                "file": "Docker/Docker Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux Network Namespaces.md",
+                "file": "Docker/Docker Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux Network Namespaces.md"
+                "file": "Docker/Docker Networking.md"
               }
             }
           },
@@ -169,18 +169,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fe88eebf6353288e",
+  "active": "6fa5c463b504a3c6",
   "lastOpenFiles": [
-    "Kubernetes/Kubernetes Networking.md",
     "Linux/Linux Network Namespaces.md",
+    "Kubernetes/Kubernetes Networking.md",
     "Docker/Docker Networking.md",
     "l../Linux.md",
     "l../Linux 1.md",
     "l..",
-    "Docker/assets/docker_networking.png",
+    "assets/docker_networking.png",
     "Linux",
     "Kubernetes",
-    "Docker/assets",
+    "assets",
     "Docker",
     "Cheat Sheets"
   ]
