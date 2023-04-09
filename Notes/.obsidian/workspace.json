@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "fbabba413b17cd37",
+    "type": "split",
+    "children": [
+      {
+        "id": "8239bff96dffd869",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "073b1fe0fdf10baf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker Networking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe88eebf6353288e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux Network Namespaces.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8281eed7ab4ef54",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f78a27199b02dbc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6fa5c463b504a3c6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7d06b76528c9ae53",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8e236cacd2d9354f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5b8b150c241140f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d38e8edb9c9b1b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a08f82d5ffbc0da8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linux/Linux Network Namespaces.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "62922f1be67286f8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Linux/Linux Network Namespaces.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a8278cb830e26228",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ad87054d0a2390ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linux/Linux Network Namespaces.md"
+              }
+            }
+          },
+          {
+            "id": "7f8ded61ffc781cb",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "fe88eebf6353288e",
+  "lastOpenFiles": [
+    "Kubernetes/Kubernetes Networking.md",
+    "Linux/Linux Network Namespaces.md",
+    "Docker/Docker Networking.md",
+    "l../Linux.md",
+    "l../Linux 1.md",
+    "l..",
+    "Docker/assets/docker_networking.png",
+    "Linux",
+    "Kubernetes",
+    "Docker/assets",
+    "Docker",
+    "Cheat Sheets"
+  ]
+}
