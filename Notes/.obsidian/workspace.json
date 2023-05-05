@@ -13,7 +13,115 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker Networking.md",
+                "file": "Kubernetes/Kubernetes Networking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "078e2cea17683273",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/DNS in Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6eac65f840120b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Kubernetes Networking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03d2170a85ae3591",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/INGRESS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88e83e5431d1a90c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Deploy a Kubernetes Cluster using kubeadm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "236f114d19affcfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Deploy a Kubernetes Cluster using kubeadm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ce24351f7dcd8a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Kubernetes Networking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e77a9ce921bfb551",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Mock Exam -- Practice.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cea3d023f9d7ea34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Mock Exam -- Practice.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9199be97bd4373e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/CKA EXAM.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -77,6 +185,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "e253cf80d02a5718",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -98,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker Networking.md",
+                "file": "Kubernetes/CKA EXAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker Networking.md",
+                "file": "Kubernetes/CKA EXAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker Networking.md"
+                "file": "Kubernetes/CKA EXAM.md"
               }
             }
           },
@@ -155,8 +271,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,11 +284,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6fa5c463b504a3c6",
+  "active": "e9199be97bd4373e",
   "lastOpenFiles": [
-    "Linux/Linux Network Namespaces.md",
+    "Kubernetes/Mock Exam -- Practice.md",
     "Kubernetes/Kubernetes Networking.md",
+    "Kubernetes/How K8s implements DNS?.md",
+    "Kubernetes/DNS in Kubernetes.md",
+    "Kubernetes/CKA EXAM.md",
+    "Kubernetes/INGRESS.md",
+    "Kubernetes/Troubleshooting.md",
+    "Kubernetes/Deploy a Kubernetes Cluster using kubeadm.md",
+    "Kubernetes/ETCD.md",
     "Docker/Docker Networking.md",
+    "Linux/Linux Network Namespaces.md",
     "l../Linux.md",
     "l../Linux 1.md",
     "l..",
