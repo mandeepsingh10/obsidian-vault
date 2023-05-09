@@ -271,6 +271,8 @@ Create a new PersistentVolumeClaim:
 - Class:  csi-hostpath-sc  
 - Capacity: 10Mi\
 
+Extend the PVC to 70Mi
+
 Create pod and claim the space from PV
 #### Solution
 
@@ -295,7 +297,7 @@ kubectl get pvc
 #### Question 14
 
 Monitor the logs of pod foo and:  
-- Extract log lines corrosponding to error " unable-to-access-website"  
+- Extract log lines corrosponding to error " unable-to-access-website"  or "file-not-found"
 - Write them to /opt/KUTR00101/f00
 
 #### Solution 
