@@ -19,7 +19,7 @@
      - nexus_machine_ip -> `52.66.172.21`
 
    So the api command will look like this.
-	   `curl -u admin:$nexus_docker_repo_pass_var http://52.66.172.21:8081/repository/helm-hosted/ --upload-file myapp-${helmversion}.tgz -v`
+	   `curl -u admin:$nexus_pass_var http://52.66.172.21:8081/repository/helm-hosted/ --upload-file myapp-${helmversion}.tgz -v`
 
   For `helmchartversion` we will helm chart version for our application.
 ```Shell
@@ -44,11 +44,11 @@ stage("Pushing Helm Charts to Nexus Repo"){
             steps{
                 script{
                     dir('kubernetes/'){
-                        withCredentials([string(credentialsId: 'nexus_docker_repo_pass', variable: 'nexus_docker_repo_pass_var')]) {
+                        withCredentials([string(credentialsId: 'nexus_pass', variable: 'nexus_pass_var')]) {
                                 sh '''
                                     helmversion=$(helm show chart myapp/ | grep version | awk '{print $2}')
                                     tar -czvf myapp-${helmversion}.tgz myapp/
-                                    curl -u admin:$nexus_docker_repo_pass_var http://52.66.172.21:8081/repository/helm-hosted/ --upload-file myapp-${helmversion}.tgz -v
+                                    curl -u admin:$nexus_pass_var http://52.66.172.21:8081/repository/helm-hosted/ --upload-file myapp-${helmversion}.tgz -v
                                 '''
                             }   
                         }

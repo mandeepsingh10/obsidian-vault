@@ -23,21 +23,26 @@
 	7.  To enter the app password, follow the instructions on your screen. The app password is the 16-character code that generates on your device.
 	8.  Select **Done**.
 
-4. Now use the created app password in the Email configuration for Jenkins (Step 2)
-    After filling the required fields, it will look similar to this.
+4. Use the created app password in the Email configuration for Jenkins (Step 2)
+    After filling the required fields, it will look similar to this. Click on `Test Configuration`
     ![[Pasted image 20230509172004.png]]
 
-    Now our test config is working properly, let's setup the email now.
+5. Our test config is working properly, let's setup the email now. 
+	- First, we have to create a credential to use the app password in the jenkins pipeline to allow access jenkins to send emails.
+	- Goto `Manage Jenkins` > `Credentials` > `select global`, select kind as `Username with password`
+	   ![[Screenshot from 2023-05-11 12-49-08.png]]
+    
 
-5. Goto `Manage Jankins` > `Configure Systems` > `Extended E-mail Notification`
-
+    
+6. Goto `Manage Jankins` > `Configure Systems` > `Extended E-mail Notification`
 	![[Pasted image 20230509172913.png]]
+    -  Click on save.
 
 6. Add a post block to the jenkins pipeline after the stages block.
 ```
 post {
 	always {
-	mail bcc: '', body: "<br>Project: ${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER} <br> URL de build: ${env.BUILD_URL}", cc: '', charset: 'UTF-8', from: '', mimeType: 'text/html', replyTo: '', subject: "${currentBuild.result} CI: Project name -> ${env.JOB_NAME}", to: "mandeepsingh1018@gmail.com";
+	mail bcc: '', body: "<br>Project: ${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER} <br>Build URL: ${env.BUILD_URL}", cc: '', charset: 'UTF-8', from: '', mimeType: 'text/html', replyTo: '', subject: "${currentBuild.result} CI: Project name -> ${env.JOB_NAME}", to: "mandeepsingh1018@gmail.com";
 
 		}
 
@@ -64,4 +69,4 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 ```
 
 8. Now build the job again, this time you'll recieve an email about the Status of the job.
-	![[Pasted image 20230509175225.png]]
+	![[Pasted image 20230511131358.png]]

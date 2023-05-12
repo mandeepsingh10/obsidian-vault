@@ -44,31 +44,135 @@
             }
           },
           {
-            "id": "db87246c7edca6ca",
+            "id": "ff3212aeaf3b83a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CICD PROJECT/Deploy Application on K8s using Helm Charts.md",
+                "file": "CICD PROJECT/Pushing Helm Charts to Nexus Repo.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ff3212aeaf3b83a0",
+            "id": "1270ba9b6049fc38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CICD PROJECT/SonarQube Integration.md",
+                "file": "CICD PROJECT/Creating Docker hosted repository in Nexus and pushing the docker image through Jenkins.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "1fb6d0bbe195c236",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CICD PROJECT/Creating a multi-stage Docker file.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ef4e2a111ea22d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CICD PROJECT/Configuring Mail Server and Adding post block in Jenkins Pipeline.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04e3d14a5502fa25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CICD PROJECT/Integrate jenkins and nexus repo with k8s cluster.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23236fca8e9911c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CICD PROJECT/Deploy helm charts on k8s Cluster.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0e99e5c68b81629",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CICD PROJECT/Adding approval request to manually approve deployments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ef8b18602092aa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CICD PROJECT/Verifying the Deployment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4ec9d01b5171ab3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CICD PROJECT/Verifying the Deployment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b65873a13425bd84",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
+          },
+          {
+            "id": "f7e603e85292090e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/Pasted image 20230509172004.png"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -142,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CICD PROJECT/SonarQube Integration.md",
+                "file": "CICD PROJECT/Verifying the Deployment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +263,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CICD PROJECT/SonarQube Integration.md",
+                "file": "CICD PROJECT/Verifying the Deployment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +286,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CICD PROJECT/SonarQube Integration.md"
+                "file": "CICD PROJECT/Verifying the Deployment.md"
               }
             }
           },
@@ -212,25 +316,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ff3212aeaf3b83a0",
+  "active": "b65873a13425bd84",
   "lastOpenFiles": [
-    "Linux/Linux Network Namespaces.md",
-    "CICD PROJECT/Pushing Helm Charts to Nexus Repo.md",
-    "CICD PROJECT/Deploy Application on K8s using Helm Charts.md",
-    "assets/Pasted image 20230509201847.png",
-    "assets/Pasted image 20230509201746.png",
-    "assets/Pasted image 20230509185950.png",
-    "assets/Pasted image 20230509185904.png",
-    "CICD PROJECT/Identifying the misconfiguration  in HELM charts using datree.md",
-    "assets/Pasted image 20230509185451.png",
-    "assets/Pasted image 20230509185417.png",
-    "assets/Pasted image 20230509185208.png",
-    "assets/Pasted image 20230509185141.png",
-    "CICD PROJECT/Configuring Mail Server and Adding post block in Jenkins Pipeline.md",
-    "assets/Pasted image 20230509175225.png",
-    "assets/Pasted image 20230509172913.png",
-    "CICD PROJECT/Variables.md",
+    "assets/Pasted image 20230511231121.png",
+    "Enabling the pull request triggeres.md",
+    "CICD PROJECT/Verifying the Deployment.md",
+    "CICD PROJECT/Adding approval request to manually approve deployments.md",
+    "assets/Pasted image 20230511230108.png",
+    "assets/Pasted image 20230511225946.png",
+    "assets/Pasted image 20230511225848.png",
+    "CICD PROJECT/Deploy helm charts on k8s Cluster.md",
+    "assets/Pasted image 20230511220047.png",
+    "assets/Pasted image 20230511215705.png",
+    "assets/Pasted image 20230511215440.png",
+    "CICD PROJECT/Integrate jenkins and nexus repo with k8s cluster.md",
+    "assets/Pasted image 20230511210902.png",
+    "Add the nexus insecure repository to containerd.md",
+    "CICD PROJECT/Creating Docker push stage for Jenkins pipeline.md",
+    "assets/Pasted image 20230511155028.png",
     "CICD PROJECT/SonarQube Integration.md",
+    "CICD PROJECT/Deploy Application on K8s using Helm Charts.md",
+    "CICD PROJECT/Configuring Slack notifications.md",
+    "assets/Pasted image 20230511154434.png",
+    "CICD PROJECT/Pushing Helm Charts to Nexus Repo.md",
+    "CICD PROJECT/Creating a multi-stage Docker file.md",
+    "CICD PROJECT/Identifying the misconfiguration  in HELM charts using datree.md",
+    "assets/Pasted image 20230511150606.png",
+    "CICD PROJECT/Configuring Mail Server and Adding post block in Jenkins Pipeline.md",
+    "CICD PROJECT/Variables.md",
+    "CICD PROJECT/Creating Docker hosted repository in Nexus and pushing the docker image through Jenkins.md",
+    "Linux/Linux Network Namespaces.md",
     "Kubernetes/CKA EXAM.md",
     "CICD PROJECT",
     "Kubernetes/Mock Exam -- Practice.md",
@@ -240,10 +355,6 @@
     "Kubernetes/INGRESS.md",
     "Kubernetes/Troubleshooting.md",
     "Kubernetes/Deploy a Kubernetes Cluster using kubeadm.md",
-    "Kubernetes/ETCD.md",
-    "Docker/Docker Networking.md",
-    "l../Linux.md",
-    "l../Linux 1.md",
     "l..",
     "Linux",
     "Kubernetes",
