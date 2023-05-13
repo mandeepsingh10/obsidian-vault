@@ -42,7 +42,7 @@ pipeline {
 
 - We need this secret to authenticate to the nexus repo hosted on our nexus server
 
-- This is a kubectl command that creates a Kubernetes secret named `registry-secret` of type `docker-registry`. This secret is used to store credentials for authenticating with a Docker registry located at the specified IP address and port number (`15.206.89.243:8083`). The `--docker-username`, `--docker-password`, and `--docker-email` flags are used to set the corresponding authentication credentials for the Docker registry.
+- This is a kubectl command that creates a Kubernetes secret named `registry-secret` of type `docker-registry`. This secret is used to store credentials for authenticating with a Docker registry located at the specified IP address and port number (`206.89.243:8083`). The `--docker-username`, `--docker-password`, and `--docker-email` flags are used to set the corresponding authentication credentials for the Docker registry.
 
 
 #### 5. Add the nexus repo on both k8s-master and k8s-node-1

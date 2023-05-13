@@ -7,7 +7,7 @@ kubectl run curl --image=curlimages/curl -i --rm --restart=Never -- curl myjavaa
 - If the exit code of this commad is 0 that means our application deployment was  a success else it was a failure
 
 ```Shell
-stage('Verifying application deployment on k8s-cluster') {
+stage("Verify application deployment on k8s-cluster") {
     steps {
         script{
             dir ("kubernetes/"){  

@@ -30,9 +30,9 @@ The command is broken down as follows:
 -   `helm upgrade`: This command upgrades a Helm release if it already exists, or installs a new one if it does not exist.
 -   `--install`: This flag indicates that a new release should be installed if it does not already exist.
 -   `--set`: This flag sets one or more values in the Helm chart's values file. In this case, it sets the `image.repository` and `image.tag` values to the specified values.
--   `image.repository="15.206.89.243:8083/springapp"`: This sets the Docker image repository for the application to `15.206.89.243:8083/springapp`.
+-   `image.repository="13.235.91.151:8083/javawebapp"`: This sets the Docker image repository for the application to `13.235.91.151:8083/javawebapp`.
 -   `image.tag="${VERSION}"`: This sets the Docker image tag for the application to a value stored in the `${VERSION}` environment variable defined in the pipeline
--   `myjavaapp`: This is the name of the Helm release.
+-   `jwa1`: This is the name of the Helm release.
 -   `myapp/`: This is the path to the Helm chart directory containing the `values.yaml` file and any other necessary files.
 
 #### 3. We had created a secret for authenticating to the nexus repo while integrating jenkins & nexus with the k8s cluster

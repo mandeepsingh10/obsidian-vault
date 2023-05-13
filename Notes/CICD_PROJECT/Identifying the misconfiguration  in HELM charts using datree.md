@@ -1,7 +1,7 @@
 
 We have already created deployments and services YAML file and helm charts for them which are present in the `kubernetes/myapp` folder in the root directory of the repo.
 
-#### 1. Now, let's add the datree stage for static code analysisi of our HELM charts.
+#### 1. Now, let's add the datree stage for static code analysis of our HELM charts.
 
 ```
 stage('Identifying the misconfiguration in HELM charts using datree'){
