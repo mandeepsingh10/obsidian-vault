@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hashnode-Blog/Advanced End-to-End DevOps Pipeline for a Java Web Application - A Step-by-Step Guide/PHASE I - Installation and configuration.md",
+                "file": "CICD_PROJECT/SonarQube Integration.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 238.5
   },
   "right": {
     "id": "5b8b150c241140f7",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hashnode-Blog/Advanced End-to-End DevOps Pipeline for a Java Web Application - A Step-by-Step Guide/PHASE I - Installation and configuration.md",
+                "file": "CICD_PROJECT/SonarQube Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hashnode-Blog/Advanced End-to-End DevOps Pipeline for a Java Web Application - A Step-by-Step Guide/PHASE I - Installation and configuration.md",
+                "file": "CICD_PROJECT/SonarQube Integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hashnode-Blog/Advanced End-to-End DevOps Pipeline for a Java Web Application - A Step-by-Step Guide/PHASE I - Installation and configuration.md"
+                "file": "CICD_PROJECT/SonarQube Integration.md"
               }
             }
           },
@@ -177,8 +177,9 @@
   },
   "active": "71bf83b474210a73",
   "lastOpenFiles": [
-    "Hashnode-Blog/Advanced End-to-End DevOps Pipeline for a Java Web Application - A Step-by-Step Guide/PHASE I - Old.md",
+    "CICD_PROJECT/Adding approval request to manually approve deployments.md",
     "Hashnode-Blog/Advanced End-to-End DevOps Pipeline for a Java Web Application - A Step-by-Step Guide/PHASE I - Installation and configuration.md",
+    "Hashnode-Blog/Advanced End-to-End DevOps Pipeline for a Java Web Application - A Step-by-Step Guide/PHASE I - Old.md",
     "AWS/s3accessforEC2role.json",
     "AWS/onlyiamroles3allow.json",
     "AWS/aws_cli_s3_commands.txt",
@@ -197,7 +198,6 @@
     "Hashnode CICD Project/Advanced End-to-End DevOps Pipeline for a Java Web Application - A Step-by-Step Guide.md",
     "UntitledUntitled.md",
     "Miscellaneous/K8s tasks.md",
-    "CICD_PROJECT/Adding approval request to manually approve deployments.md",
     "CICD_PROJECT/Configuring Mail Server and Adding post block in Jenkins Pipeline.md",
     "CICD_PROJECT/Configuring Slack notifications.md",
     "CICD_PROJECT/Creating a multi-stage Docker file.md",
