@@ -1,3 +1,4 @@
+
 ## Overview
 
 This project aims to build an advanced end-to-end DevOps pipeline for a Java web application.  
@@ -198,15 +199,14 @@ git clone https://github.com/mandeepsingh10/cicd-setup.git
     
     We can access the Jenkins server, which means we are good to go.
     
-6. We can automate the provisioning of all the AWS resources using the `t_createall.sh` script located in the `cicd-setup/scripts`. While implementing Phase I for the first time, I recommend against using the `t_createall.sh` script to create all necessary resources at once. This is because our infrastructure setup utilizes `t2.medium` EC2 instances, and creating all resources simultaneously may result in higher AWS EC2 costs if instances remain idle while we configure other servers. Additionally, running a script may not provide a thorough understanding of how things work.
+6. We can create all the resources at once by running the `t_createall.sh` script in the `cicd-setup/scripts` directory. However, I do not recommend doing this because we are using `t2.medium` `EC2` instances for our infrastructure setup. Creating all the resources at once can lead to an unnecessary increase in AWS EC2 charges, which we want to avoid as much as possible.
     
 7. Let's move on to our next step, which is configuring our servers using Ansible playbooks. We can refer to this section whenever we need to provision the remaining servers on AWS.
     
 
 ### Configure the servers using Ansible
 
-I have created Ansible playbooks to configure all the servers according to the application/service we need to run on them.  
-The `playall.sh` script provides an option to automate the configuration management of all servers. However, as previously mentioned, solely relying on a script may not provide a comprehensive understanding of the underlying processes involved.
+I have created Ansible playbooks to configure all the servers according to the application/service we need to run on them.
 
 1. **Jenkins server**
     
@@ -237,7 +237,7 @@ The `playall.sh` script provides an option to automate the configuration managem
         
         We can see that the file is generated with the details required by Ansible to connect to the `jenkins` server. As we haven't provisioned the remaining servers yet, the IP details are empty for them.
         
-    * Now, to configure the `jenkins` server as per our requirements for this project, simply run the Ansible playbook located at `ansible_config/jenkins/jenkins.yaml`. You can check the Ansible playbook to understand how we are configuring the `jenkins` server. The playbook output shows us what all tasks are being performed.
+    * Now, to configure the `jenkins` server as per our requirements for this project, simply run the Ansible playbook located at `ansible_config/jenkins/jenkins.yml`. You can check the Ansible playbook to understand how we are configuring the `jenkins`server. The playbook output shows us what all tasks are being performed.
         
         ```yaml
         ~/repos/cicd-setup/ansible_config$ 
@@ -583,22 +583,7 @@ The `playall.sh` script provides an option to automate the configuration managem
         weave-net-zddmr                      2/2     Running   1 (20m ago)   21m
         ```
         
-    * We can see that both nodes are in a Ready state, and all pods in the kube-system namespace are up and running, indicating that our k8s cluster has been deployed properly.
+    * We can see that both the nodes are in **Ready** state, our k8s cluster is functional.
         
     
-    #### With this we have successfully completed Phase I of our project, the required infrastructure for the CICD pipeline is successfully provisioned and configured.  
-      
-    **Note:**  
-    <mark>When implementing Phase I for the first time, it may take a considerable amount of time to complete. If you need to take a break or are unable to continue for a few days, it is not advisable to keep the AWS resources running during this time as it can result in significantly higher charges.</mark>
-    
-    For such scenarios or if you make mistakes during Phase I and need to start over but don't want to repeat the same steps again, you can use the following scripts in the cicd-setup/scripts directory:
-    
-    1. `t_createall.sh`: provisions all EC2 instances
-        
-    2. `t_destroyall.sh`: destroys all EC2 instances
-        
-    3. `playall.sh`: automates the configuration management of all servers
-        
-    4. `phase1.sh`: automates both provisioning and configuration management processes
-
-	After automating the provisioning and configuration management processes, you will still need to complete certain manual steps in the initial setup of applications such as Jenkins, SonarQube, and Nexus. To do this, you can access the dashboards of each application using the public IP followed by the port in your web browser.
+    #### With this we have successfully completed Phase I of our project, the required infrastructure for the CICD pipeline is successfully provisioned and configured.
