@@ -1,0 +1,12 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: google-storage
+provisioner: kubernetes.io/gce-pd
+parameters:
+  type: pd-standard
+  replication-type: none
+
+#### Whenever storage class are used they create PVs automatically so we don't have to create pv manually
+#### parameters are specific to the provisioner used
+#### We can create multiple storage class for ourselves like for ssd type drives we can create another storage class just by changing the type: pd-ssd etc

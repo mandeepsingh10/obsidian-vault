@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-app
+  labels:
+    tier: frontend
+    type: prod
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx
+  volumes:
+    - name: app-config
+      configMap:
+        name: app-config
+
+
+
+  

@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    tier: frontend
+    type: prod
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx
+      env:
+        - name: APP_COLOR
+          valueFrom:
+            configMapKeyRef:
+              name: app-config
+              key: APP_COLOR
+              
+###This way we fetch single env from the config-map file
+            

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app_config
+data: ##Add environment variables in this section
+  APP_COLOR: blue
+  APP_MODE: prod
+
+
+##This creates a config map with the name app-config and environment variables APP_COLOR=blue and APP_MODE=prod
+## kubectl create -f config-map.yaml

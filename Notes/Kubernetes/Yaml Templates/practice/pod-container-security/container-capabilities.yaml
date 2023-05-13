@@ -1,0 +1,18 @@
+---
+apiVersion: v1 
+kind: Pod 
+metadata:
+  name: ubuntu-sleeper-3 
+spec:
+  securityContext:     ##### POD SECURITY CONTEXT ######
+    runAsUser: 10101
+  containers:
+  - name: ubuntu
+    image: ubuntu
+    command:
+      - "sleep"
+      - "1200"
+    securityContext:   ###### CONTAINER SECURITY CONTEXT ####
+      capabilities:
+        add: ["SYS_TIME"]
+          

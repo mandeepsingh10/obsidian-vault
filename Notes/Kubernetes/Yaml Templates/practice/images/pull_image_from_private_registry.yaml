@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  generation: 3
+  labels:
+    app: web
+  name: web
+  namespace: default
+
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - image: myprivateregistry.com:5000/nginx:alpine ## add private repository path here 
+        imagePullPolicy: IfNotPresent
+        name: nginx
+      imagePullSecrets: #### reference the created secret here which will be used when authenticating to the private repository
+      - name: private-reg-cred
+      restartPolicy: Always
+      schedulerName: default-scheduler
+
+#### configure secrets to authenticate to a private repository, example docker registry
+#### kubectl create secret docker-registry private-reg-cred --docker-username=dock_user --docker-password=dock_password --docker-server=myprivateregistry.com:5000 --docker-email=dock_user@myprivateregistry.com
