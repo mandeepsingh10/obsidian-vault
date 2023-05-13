@@ -1,0 +1,36 @@
+apt update    
+apt install aws-cli   
+apt install awscli   
+aws s3 ls   
+aws s3 ls s3://cf-templates-yolo9797  
+aws s3 ls   
+aws s3 ls s3://cf-templates-yolo9797  
+aws s3 ls   
+aws s3 ls s3://cf-templates-yolo9797  
+aws s3 mb s3://cf-templates-mybucket97  
+aws s3 ls s3://cf-templates-mybucket97  
+echo "YOLO BABAYYY" > file4567.txt 
+ls     
+aws s3 cp file4567.txt s3://cf-templates-mybucket97 
+aws s3 ls s3://cf-templates-mybucket97  
+aws s3 rm s3://cf-templates-mybucket97  
+aws s3 ls s3://cf-templates-mybucket97  
+aws s3api empty-bucket --bucket cf-templates-mybucket97 --region
+aws s3api delete-objetcs --bucket cf-templates-mybucket97 --region
+aws s3api delete-objects --bucket cf-templates-mybucket97 --region
+aws s3 rm s3://cf-templates-mybucket97  
+aws s3 ls s3://cf-templates-mybucket97  
+aws s3 rm s3://cf-templates-mybucket97 --recursive 
+aws s3 ls s3://cf-templates-mybucket97  
+aws s3api delete-bucket --bucket cf-templates-mybucket97 --region
+aws s3api delete-bucket --bucket cf-templates-yolo9797 --region
+aws s3 rm s3://cf-templates-yolo9797 --recursive 
+aws s3api delete-bucket --bucket cf-templates-yolo9797 --region
+aws s3 rm s3://cf-templates-121x0ka94bwx2-ap-south-1 --recursive 
+aws s3 cp file4567.txt s3://cf-templates-121x0ka94bwx2-ap-south-1 
+aws s3api delete-bucket --bucket s3://cf-templates-121x0ka94bwx2-ap-south-1 --region
+aws s3api delete-bucket --bucket cf-templates-121x0ka94bwx2-ap-south-1 --region
+aws s3 rm s3://cf-templates-121x0ka94bwx2-ap-south-1 --recursive 
+aws s3api delete-bucket --bucket cf-templates-121x0ka94bwx2-ap-south-1 --region
+history >> aws_cli_s3_commands.txt   
+
