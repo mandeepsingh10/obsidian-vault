@@ -4,119 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "8239bff96dffd869",
+        "id": "31ad19aa55b0aad0",
         "type": "tabs",
         "children": [
           {
-            "id": "a11389124bce1cff",
+            "id": "71bf83b474210a73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CICD PROJECT/Configuring Mail Server and Adding post block in Jenkins Pipeline.md",
+                "file": "CICD PROJECT/Variables.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "924ff9f8acdf6f3d",
+            "id": "67f326451a8b3fc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CICD PROJECT/Identifying the misconfiguration  in HELM charts using datree.md",
+                "file": "Miscellaneous/CICD Project Description.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "88cf6aad815fb1ad",
+            "id": "18f4d7f28742a148",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CICD PROJECT/Pushing Helm Charts to Nexus Repo.md",
+                "file": "Miscellaneous/CICD Project Description.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ff3212aeaf3b83a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CICD PROJECT/Pushing Helm Charts to Nexus Repo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1270ba9b6049fc38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CICD PROJECT/Creating Docker hosted repository in Nexus and pushing the docker image through Jenkins.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1fb6d0bbe195c236",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CICD PROJECT/Creating a multi-stage Docker file.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ef4e2a111ea22d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CICD PROJECT/Configuring Mail Server and Adding post block in Jenkins Pipeline.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04e3d14a5502fa25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CICD PROJECT/Integrate jenkins and nexus repo with k8s cluster.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23236fca8e9911c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CICD PROJECT/Deploy helm charts on k8s Cluster.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0e99e5c68b81629",
+            "id": "19f3967943fd2477",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -128,51 +56,19 @@
             }
           },
           {
-            "id": "7ef8b18602092aa3",
+            "id": "30a97a0453115f20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CICD PROJECT/Verifying the Deployment.md",
+                "file": "Hashnode CICD Project/Advanced End-to-End DevOps Pipeline for a Java Web Application - A Step-by-Step Guide.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "f4ec9d01b5171ab3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CICD PROJECT/Verifying the Deployment.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b65873a13425bd84",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.8"
-              }
-            }
-          },
-          {
-            "id": "f7e603e85292090e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/Pasted image 20230509172004.png"
               }
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -246,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CICD PROJECT/Verifying the Deployment.md",
+                "file": "Hashnode CICD Project/Advanced End-to-End DevOps Pipeline for a Java Web Application - A Step-by-Step Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CICD PROJECT/Verifying the Deployment.md",
+                "file": "Hashnode CICD Project/Advanced End-to-End DevOps Pipeline for a Java Web Application - A Step-by-Step Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -286,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CICD PROJECT/Verifying the Deployment.md"
+                "file": "Hashnode CICD Project/Advanced End-to-End DevOps Pipeline for a Java Web Application - A Step-by-Step Guide.md"
               }
             }
           },
@@ -299,7 +195,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -316,45 +212,47 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b65873a13425bd84",
+  "active": "30a97a0453115f20",
   "lastOpenFiles": [
-    "assets/Pasted image 20230511231121.png",
-    "Enabling the pull request triggeres.md",
-    "CICD PROJECT/Verifying the Deployment.md",
+    "Miscellaneous/Project Descriptions.md",
+    "zombies",
+    "Miscellaneous/K8s tasks.md",
+    "Miscellaneous/CICD Project Description.md",
+    "Miscellaneous",
+    "Hashnode CICD Project/Advanced End-to-End DevOps Pipeline for a Java Web Application - A Step-by-Step Guide.md",
+    "Hashnode CICD Project",
     "CICD PROJECT/Adding approval request to manually approve deployments.md",
+    "CICD PROJECT/Configuring Mail Server and Adding post block in Jenkins Pipeline.md",
+    "CICD PROJECT/Configuring Slack notifications.md",
+    "CICD PROJECT/Creating a multi-stage Docker file.md",
+    "CICD PROJECT/Creating Docker hosted repository in Nexus and pushing the docker image through Jenkins.md",
+    "CICD PROJECT/Creating Docker push stage for Jenkins pipeline.md",
+    "CICD PROJECT/Deploy helm charts on k8s Cluster.md",
+    "CICD PROJECT/Identifying the misconfiguration  in HELM charts using datree.md",
+    "CICD PROJECT/Pushing Helm Charts to Nexus Repo.md",
+    "CICD PROJECT/SonarQube Integration.md",
+    "CICD PROJECT/Variables.md",
+    "assets/Pasted image 20230509172004.png",
+    "assets/Pasted image 20230511231121.png",
+    "zombies/Enabling the pull request triggeres.md",
+    "CICD PROJECT/Verifying the Deployment.md",
     "assets/Pasted image 20230511230108.png",
     "assets/Pasted image 20230511225946.png",
     "assets/Pasted image 20230511225848.png",
-    "CICD PROJECT/Deploy helm charts on k8s Cluster.md",
     "assets/Pasted image 20230511220047.png",
     "assets/Pasted image 20230511215705.png",
     "assets/Pasted image 20230511215440.png",
     "CICD PROJECT/Integrate jenkins and nexus repo with k8s cluster.md",
     "assets/Pasted image 20230511210902.png",
     "Add the nexus insecure repository to containerd.md",
-    "CICD PROJECT/Creating Docker push stage for Jenkins pipeline.md",
     "assets/Pasted image 20230511155028.png",
-    "CICD PROJECT/SonarQube Integration.md",
     "CICD PROJECT/Deploy Application on K8s using Helm Charts.md",
-    "CICD PROJECT/Configuring Slack notifications.md",
-    "assets/Pasted image 20230511154434.png",
-    "CICD PROJECT/Pushing Helm Charts to Nexus Repo.md",
-    "CICD PROJECT/Creating a multi-stage Docker file.md",
-    "CICD PROJECT/Identifying the misconfiguration  in HELM charts using datree.md",
-    "assets/Pasted image 20230511150606.png",
-    "CICD PROJECT/Configuring Mail Server and Adding post block in Jenkins Pipeline.md",
-    "CICD PROJECT/Variables.md",
-    "CICD PROJECT/Creating Docker hosted repository in Nexus and pushing the docker image through Jenkins.md",
     "Linux/Linux Network Namespaces.md",
     "Kubernetes/CKA EXAM.md",
     "CICD PROJECT",
     "Kubernetes/Mock Exam -- Practice.md",
     "Kubernetes/Kubernetes Networking.md",
     "Kubernetes/How K8s implements DNS?.md",
-    "Kubernetes/DNS in Kubernetes.md",
-    "Kubernetes/INGRESS.md",
-    "Kubernetes/Troubleshooting.md",
-    "Kubernetes/Deploy a Kubernetes Cluster using kubeadm.md",
     "l..",
     "Linux",
     "Kubernetes",
